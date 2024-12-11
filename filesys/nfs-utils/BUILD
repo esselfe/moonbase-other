@@ -1,6 +1,6 @@
 OPTS+=" --without-tcp-wrappers \
         --with-statedir=/var/lib/nfs \
-        --with-start-statd=/usr/bin/start-statd \
+        --with-start-statd=/usr/sbin/start-statd \
         --enable-libmount-mount \
         --enable-mountconfig \
         --disable-static"

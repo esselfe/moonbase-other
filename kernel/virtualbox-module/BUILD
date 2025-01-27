@@ -1,7 +1,12 @@
 cd /usr/lib/virtualbox/src &&
 
-export KERN_VER=$(installed_version linux)
-export KERN_DIR=/usr/src/linux-$KERN_VER &&
+if module_installed linux; then
+  export KERN_VER=$(installed_version linux)
+  export KERN_DIR=/usr/src/linux-$KERN_VER &&
+elif module_installed linux-lts; then
+  export KERN_VER=$(installed_version linux-lts)
+  export KERN_DIR=/usr/src/linux-lts-$KERN_VER &&
+fi
 export MODULE_DIR=/lib/modules/$KERN_VER/misc
 
 ln -sf ../vboxdrv    ./vboxdrv/vboxdrv &&

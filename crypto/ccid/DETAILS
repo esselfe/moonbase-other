@@ -1,11 +1,11 @@
           MODULE=ccid
-         VERSION=1.6.1
+         VERSION=1.6.2
           SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=https://ccid.apdu.fr/files/
-      SOURCE_VFY=sha256:2eca8fb07e8fe7c0d39daeaca7b97cd73c40ed9b72738a24ad3dcbdfc918e1ea
+      SOURCE_VFY=sha256:41958410950157e622f9d91c9e78c7b708db74e22f71190c581d24d20564d449
         WEB_SITE=https://ccid.apdu.fr/
          ENTERED=20131012
-         UPDATED=20240801
+         UPDATED=20251208
            SHORT="A generic USB Chip/Smart Card Interface Devices driver"
 
 cat << EOF

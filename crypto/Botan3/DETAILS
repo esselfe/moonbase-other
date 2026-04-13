@@ -1,12 +1,12 @@
           MODULE=Botan3
-         VERSION=3.10.0
+         VERSION=3.11.1
           SOURCE=${MODULE%*3}-$VERSION.tar.xz
       SOURCE_URL=https://botan.randombit.net/releases/
-      SOURCE_VFY=sha256:fde194236f6d5434f136ea0a0627f6cc9d26af8b96e9f1e1c7d8c82cd90f4f24
+      SOURCE_VFY=sha256:c1cd7152519f4188591fa4f6ddeb116bc1004491f5f3c58aa99b00582eb8a137
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/${MODULE%*3}-$VERSION
         WEB_SITE=https://botan.randombit.net/
          ENTERED=20230713
-         UPDATED=20251107
+         UPDATED=20260413
            SHORT="Crypto and TLS for C++11"
 
 cat << EOF

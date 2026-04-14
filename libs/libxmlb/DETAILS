@@ -1,16 +1,17 @@
-          MODULE=libxmlb
-         VERSION=0.3.25
-          SOURCE=$MODULE-$VERSION.tar.gz
- SOURCE_URL_FULL=https://github.com/hughsie/libxmlb/archive/$VERSION.tar.gz
-      SOURCE_VFY=sha256:1b4c42ea390d3c5358764645667f92bde3e82e5b777c0415f6c4eec21273dbdf
-        WEB_SITE=https://github.com/hughsie/libxmlb
-            TYPE=meson
-         ENTERED=20201224
-         UPDATED=20260203
-           SHORT="converts XML to a structured binary representation with a deduplicated string table"
+         MODULE=libxmlb
+        VERSION=0.3.26
+         SOURCE=$MODULE-$VERSION.tar.gz
+SOURCE_URL_FULL=https://github.com/hughsie/libxmlb/archive/$VERSION.tar.gz
+     SOURCE_VFY=sha256:1a34bcfa58617675dafd5251921506b31afcc8384de4d1cb09b62a3ead8460a3
+       WEB_SITE=https://github.com/hughsie/libxmlb
+           TYPE=meson
+        ENTERED=20201224
+        UPDATED=20260414
+          SHORT="converts XML to a structured binary representation with a deduplicated string table"
 
 cat << EOF
-XML is slow to parse and strings inside the document cannot be memory mapped as they do not
-have a trailing NUL char. The libxmlb library takes XML source, and converts it to a structured
-binary representation with a deduplicated string table -- where the strings have the NULs included.
+XML is slow to parse and strings inside the document cannot be memory mapped as
+they do not have a trailing NUL char. The libxmlb library takes XML source, and
+converts it to a structured binary representation with a deduplicated string
+table -- where the strings have the NULs included.
 EOF

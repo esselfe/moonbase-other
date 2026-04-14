@@ -1,12 +1,12 @@
-          MODULE=xwayland
-         VERSION=24.1.9
-          SOURCE=$MODULE-$VERSION.tar.xz
-      SOURCE_URL=$XORG_URL/individual/xserver
-     SOURCE_VFY=sha256:f297af27a84508db9b80d1cbbcc69c3801da38eb64c72f3b5b50f582459afdd0
-        WEB_SITE=https://xorg.freedesktop.org/
-         ENTERED=20230329
-         UPDATED=20251028
-           SHORT="run X clients under wayland"
+    MODULE=xwayland
+   VERSION=24.1.10
+    SOURCE=$MODULE-$VERSION.tar.xz
+SOURCE_URL=$XORG_URL/individual/xserver
+SOURCE_VFY=sha256:459762be8ea046c94386687d77a87add6073868bee14f02913eafebb945b7aa0
+  WEB_SITE=https://xorg.freedesktop.org/
+   ENTERED=20230329
+   UPDATED=20260414
+     SHORT="run X clients under wayland"
 
 cat << EOF
 Run X clients under wayland.

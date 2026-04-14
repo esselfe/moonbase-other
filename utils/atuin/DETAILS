@@ -1,11 +1,11 @@
          MODULE=atuin
-        VERSION=18.13.6
+        VERSION=18.14.1
          SOURCE=$MODULE-$VERSION.tar.gz
 SOURCE_URL_FULL=https://github.com/atuinsh/atuin/archive/v$VERSION.tar.gz
-     SOURCE_VFY=sha256:1d16c1d0f2a9ca104995feaf58a3a20476e729a52336e059247a2f232aeb0f5c
+     SOURCE_VFY=sha256:4b717911a0c8f2752d0e5c5d8f3fb988154972c4b3b079b2db2bacd021074ea5
        WEB_SITE=https://atuin.sh
         ENTERED=20251026
-        UPDATED=20260327
+        UPDATED=20260414
           SHORT="Magical shell history"
 
 cat << EOF

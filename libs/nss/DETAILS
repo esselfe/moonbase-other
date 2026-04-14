@@ -1,19 +1,19 @@
-          MODULE=nss
-         VERSION=3.121
-          SOURCE=$MODULE-$VERSION.tar.gz
-   SOURCE_URL[0]=https://ftp.mozilla.org/pub/security/nss/releases/NSS_${VERSION//./_}_RTM/src
-   SOURCE_URL[1]=ftp://ftp.mozilla.org/pub/mozilla.org/security/nss/releases/NSS_${VERSION//./_}_RTM/src
-      SOURCE_VFY=sha256:cb3a8f8781bea78b7b8edd3afb7a2cb58e4881bb0160d189a39b98216ba7632e
-        WEB_SITE=http://www.mozilla.org/projects/security/pki/nss/
-         ENTERED=20060418
-         UPDATED=20260224
-           SHORT="A set of libraries for security-enabled applications developement"
+       MODULE=nss
+      VERSION=3.122.1
+       SOURCE=$MODULE-$VERSION.tar.gz
+SOURCE_URL[0]=https://ftp.mozilla.org/pub/security/nss/releases/NSS_${VERSION//./_}_RTM/src
+SOURCE_URL[1]=ftp://ftp.mozilla.org/pub/mozilla.org/security/nss/releases/NSS_${VERSION//./_}_RTM/src
+   SOURCE_VFY=sha256:de5a655da82a67e502b802ae0b53f3eb02ea53f509c3fc0ab54a892e04493bbf
+     WEB_SITE=http://www.mozilla.org/projects/security/pki/nss/
+      ENTERED=20060418
+      UPDATED=20260414
+        SHORT="A set of libraries for security-enabled applications developement"
 
 cat << EOF
 The Network Security Services (NSS) package is a set of libraries designed to
 support cross-platform development of security-enabled client and server
-applications. Applications built with NSS can support SSL v2 and v3, TLS, PKCS #5,
-PKCS #7, PKCS #11, PKCS #12, S/MIME, X.509 v3 certificates, and other
+applications. Applications built with NSS can support SSL v2 and v3, TLS, PKCS
+#5, PKCS #7, PKCS #11, PKCS #12, S/MIME, X.509 v3 certificates, and other
 security standards. This is useful for implementing SSL and S/MIME or other
 Internet security standards into an application.
 EOF

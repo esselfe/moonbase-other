@@ -1,11 +1,11 @@
           MODULE=libexif
-         VERSION=0.6.25
+         VERSION=0.6.26
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/libexif/libexif/archive/refs/tags/v$VERSION.tar.gz
-      SOURCE_VFY=sha256:b23af41f37019b8d591d4d9b42ba52fd30709b6767341aa887f9afe400c8408a
+      SOURCE_VFY=sha256:32e591455339504b7d02f3e9b0a48f16f5455462a9059a7f47639980e82e4bc1
         WEB_SITE=https://github.com/libexif/libexif/
          ENTERED=20030108
-         UPDATED=20250117
+         UPDATED=20260414
            SHORT="A library for parsing, editing, and saving EXIF data"
 
 cat << EOF

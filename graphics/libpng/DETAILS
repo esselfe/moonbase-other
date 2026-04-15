@@ -1,11 +1,11 @@
           MODULE=libpng
-         VERSION=1.6.57
+         VERSION=1.6.58
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/pnggroup/libpng/archive/refs/tags/v$VERSION.tar.gz
-      SOURCE_VFY=sha256:4cbb7b0746edc1683c9581b373365e955133b7f1243f171b7d1535b4415dfedb
+      SOURCE_VFY=sha256:a9d4df463d36a6e5f9c29bd6f4967312d17e996c1854f3511f833924eb1993cf
         WEB_SITE=http://www.libpng.org/pub/png/libpng.html
          ENTERED=20010922
-         UPDATED=20260409
+         UPDATED=20260415
            SHORT="Library that supports the PNG graphics format"
 
 cat << EOF

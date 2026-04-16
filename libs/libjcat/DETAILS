@@ -1,17 +1,18 @@
-          MODULE=libjcat
-         VERSION=0.2.5
-          SOURCE=$MODULE-$VERSION.tar.gz
- SOURCE_URL_FULL=https://github.com/hughsie/libjcat/archive/refs/tags/$VERSION.tar.gz
-      SOURCE_VFY=sha256:4ea337d99744bff98e8eba46de7ee3fdf2d721bdf3737e95500ba32192b84463
-        WEB_SITE=https://github.com/hughsie/libjcat
-            TYPE=meson
-         ENTERED=20220606
-         UPDATED=20251005
-           SHORT="read and write gzip-compressed JSON catalog files"
+         MODULE=libjcat
+        VERSION=0.2.6
+         SOURCE=$MODULE-$VERSION.tar.gz
+SOURCE_URL_FULL=https://github.com/hughsie/libjcat/archive/refs/tags/$VERSION.tar.gz
+     SOURCE_VFY=sha256:28a1416cc207e51f6ffe2f0c16f7772541eac0cd864d38dbc0c3004888ef1131
+       WEB_SITE=https://github.com/hughsie/libjcat
+           TYPE=meson
+        ENTERED=20220606
+        UPDATED=20260416
+          SHORT="read and write gzip-compressed JSON catalog files"
 
 cat << EOF
-This library allows reading and writing gzip-compressed JSON catalog files, which can be
-used to store GPG, PKCS-7 and SHA-256 checksums for each file.
+This library allows reading and writing gzip-compressed JSON catalog files,
+which can be used to store GPG, PKCS-7 and SHA-256 checksums for each file.
 
-This provides equivalent functionality to the catalog files supported in Microsoft Windows.
+This provides equivalent functionality to the catalog files supported in
+Microsoft Windows.
 EOF

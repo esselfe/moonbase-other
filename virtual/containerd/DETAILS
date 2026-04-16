@@ -1,12 +1,12 @@
-          MODULE=containerd
-         VERSION=2.2.2
-          SOURCE=$MODULE-$VERSION.tar.gz
- SOURCE_URL_FULL=https://github.com/containerd/containerd/archive/v${VERSION}.tar.gz
-      SOURCE_VFY=sha256:d6e8e6424c544cdab9b51cae320c3a9aa5590e8e1ffbd1f862eb395fd8c5bc28
-        WEB_SITE=https://containerd.io/
-         ENTERED=20190615
-         UPDATED=20260316
-           SHORT="An open and reliable container runtime"
+         MODULE=containerd
+        VERSION=2.2.3
+         SOURCE=$MODULE-$VERSION.tar.gz
+SOURCE_URL_FULL=https://github.com/containerd/containerd/archive/v${VERSION}.tar.gz
+     SOURCE_VFY=sha256:b97780bde4b01ed3596b0b0c6f55bfb130794a3db4e6fe2e0fc9719244933945
+       WEB_SITE=https://containerd.io/
+        ENTERED=20190615
+        UPDATED=20260416
+          SHORT="An open and reliable container runtime"
 
 cat << EOF
 An open and reliable container runtime.

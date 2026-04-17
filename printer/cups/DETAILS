@@ -1,12 +1,12 @@
-          MODULE=cups
-         VERSION=2.4.16
-          SOURCE=$MODULE-$VERSION-source.tar.gz
-      SOURCE_URL=https://github.com/OpenPrinting/cups/releases/download/v${VERSION}/
-      SOURCE_VFY=sha256:0339587204b4f9428dd0592eb301dec0bf9ea6ea8dce5d9690d56be585aba92d
-        WEB_SITE=https://www.cups.org/
-         ENTERED=20020218
-         UPDATED=20251204
-           SHORT="A portable printing layer"
+    MODULE=cups
+   VERSION=2.4.17
+    SOURCE=$MODULE-$VERSION-source.tar.gz
+SOURCE_URL=https://github.com/OpenPrinting/cups/releases/download/v${VERSION}/
+SOURCE_VFY=sha256:89c703238de210d4f4f4e5d4269e3d60c4b2f487aad75a8a1eaecd659e4d0b77
+  WEB_SITE=https://www.cups.org/
+   ENTERED=20020218
+   UPDATED=20260418
+     SHORT="A portable printing layer"
 
 cat << EOF
 CUPS provides a portable printing layer for UNIX(r)-based operating systems. It

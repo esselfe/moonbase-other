@@ -1,12 +1,12 @@
-          MODULE=wireless-regdb
-         VERSION=2025.10.07
-          SOURCE=$MODULE-$VERSION.tar.xz
-      SOURCE_URL=https://mirrors.edge.kernel.org/pub/software/network/${MODULE}
-      SOURCE_VFY=sha256:d4c872a44154604c869f5851f7d21d818d492835d370af7f58de8847973801c3
-        WEB_SITE=https://wireless.wiki.kernel.org/en/developers/regulatory/wireless-regdb/
-         ENTERED=20181004
-         UPDATED=20251227
-           SHORT="Central Regulatory Domain Database"
+    MODULE=wireless-regdb
+   VERSION=2026.02.04
+    SOURCE=$MODULE-$VERSION.tar.xz
+SOURCE_URL=https://mirrors.edge.kernel.org/pub/software/network/${MODULE}
+SOURCE_VFY=sha256:0ff48a5cd9e9cfe8e815a24e023734919e9a3b7ad2f039243ad121cf5aabf6c6
+  WEB_SITE=https://wireless.wiki.kernel.org/en/developers/regulatory/wireless-regdb/
+   ENTERED=20181004
+   UPDATED=20260417
+     SHORT="Central Regulatory Domain Database"
 
 cat << EOF
 wireless-regdb is a regulatory database used by Linux.

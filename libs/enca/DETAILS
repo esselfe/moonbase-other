@@ -1,11 +1,11 @@
           MODULE=enca
-         VERSION=1.19
-          SOURCE=$MODULE-$VERSION.tar.xz
-      SOURCE_URL=http://dl.cihar.com/$MODULE/
-      SOURCE_VFY=sha256:3a487eca40b41021e2e4b7a6440b97d822e6532db5464471f572ecf77295e8b8
-        WEB_SITE=http://cihar.com/software/enca/
+         VERSION=1.22
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=https://github.com/Project-OSS-Revival/enca/releases/download/$VERSION/
+      SOURCE_VFY=sha256:7ca56f5b27d2904a78e0b4f502822883b37ef68bd658161b98950bdf9308bda3
+        WEB_SITE=https://cihar.com/software/enca/
          ENTERED=20060124
-         UPDATED=20180218
+         UPDATED=20260418
            SHORT="Extremely Naive Charset Analyser"
 
 cat << EOF

@@ -19,7 +19,7 @@
          ENTERED=20060322
          UPDATED=20260418
            SHORT="A clone of the Microprose game Transport Tycoon Deluxe"
-         GARBAGE=off
+GARBAGE=off
 
 cat << EOF
 OpenTTD is modeled after the original Transport Tycoon game by Chris

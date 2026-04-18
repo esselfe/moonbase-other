@@ -1,14 +1,14 @@
           MODULE=python-lxml
-         VERSION=6.0.4
+         VERSION=6.1.0
           SOURCE=lxml-$VERSION.tar.gz
       SOURCE_URL=https://pypi.io/packages/source/l/lxml/
-      SOURCE_VFY=sha256:4137516be2a90775f99d8ef80ec0283f8d78b5d8bd4630ff20163b72e7e9abf2
+      SOURCE_VFY=sha256:bfd57d8008c4965709a919c3e9a98f76c2c7cb319086b3d26858250620023b13
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/lxml-$VERSION
         WEB_SITE=https://pypi.org/project/lxml/
             TYPE=python3
         REPLACES=lxml
          ENTERED=20021223
-         UPDATED=20260412
+         UPDATED=20260418
            SHORT="Python wrappers for libxml2 and libxslt"
 
 cat << EOF

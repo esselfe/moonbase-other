@@ -1,11 +1,11 @@
     MODULE=freetds
-   VERSION=1.5.16
+   VERSION=1.5.17
     SOURCE=$MODULE-$VERSION.tar.bz2
 SOURCE_URL=http://www.freetds.org/files/stable/
-SOURCE_VFY=sha256:bc4c8264e8656180eb53e7b08ffcdfca902ceab2dfc6b5c4ef4b2394a263ec42
+SOURCE_VFY=sha256:6dee48026b7e3e2393d3ea3ce18f8f81a74d6a0f300e9951981ed7bf4de6bbc3
   WEB_SITE=http://www.freetds.org/
    ENTERED=20030101
-   UPDATED=20260406
+   UPDATED=20260418
      SHORT="OpenSource libraries for Sybase connections"
 
 cat << EOF

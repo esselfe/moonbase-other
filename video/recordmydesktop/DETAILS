@@ -1,8 +1,8 @@
           MODULE=recordmydesktop
-         VERSION=0.3.8.1
+         VERSION=0.4.0
           SOURCE=$MODULE-$VERSION.tar.gz
-      SOURCE_URL=$SFORGE_URL/$MODULE
-      SOURCE_VFY=sha1:4be18baa70da88a7f228591057f2e7ff51b31de4
+      SOURCE_URL=https://github.com/Enselic/recordmydesktop/releases/download/v$VERSION/
+      SOURCE_VFY=sha256: e7c5cb7d5d9ac2c3a2898fc68ae826f34f69b787e1b5a28851f51742677d729e
         WEB_SITE=http://recordmydesktop.sourceforge.net/about.php
          ENTERED=20090213
          UPDATED=20090213

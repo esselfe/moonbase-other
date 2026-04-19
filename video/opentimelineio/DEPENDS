@@ -1,0 +1,6 @@
+depends python
+depends cmake
+depends rapidjson
+depends imath
+depends python-wheel
+depends pybind11

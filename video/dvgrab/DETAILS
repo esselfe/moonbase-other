@@ -1,11 +1,11 @@
-         MODULE=dvgrab
-         VERSION=3.5
+          MODULE=dvgrab
+         VERSION=3.5.2
           SOURCE=$MODULE-$VERSION.tar.gz
-      SOURCE_URL=$SFORGE_URL/kino
-      SOURCE_VFY=sha256:5910183429d300221783d6054ff5add15bb2ae49ae33272d723a314bc2ce0af9
+ SOURCE_URL_FULL=https://github.com/ddennedy/dvgrab/archive/refs/tags/v$VERSION.tar.gz
+      SOURCE_VFY=sha256:c56301a9d1de4ae6f8bfb7402865eea935079240ce98dcc8dc84a4a4c6ef5824
         WEB_SITE=http://www.kinodv.org/article/archive/0
          ENTERED=20030909
-         UPDATED=20171224
+         UPDATED=20260419
            SHORT="Grab your videos from DV camera"
 
 cat << EOF

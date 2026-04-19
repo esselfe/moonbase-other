@@ -1,4 +1,4 @@
-         MODULE=dvgrab
+          MODULE=dvgrab
          VERSION=3.5.2
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/ddennedy/dvgrab/archive/refs/tags/v$VERSION.tar.gz

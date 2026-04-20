@@ -5,7 +5,7 @@ optional_depends perl   "" "" "for executing the perl scripts"
 optional_depends ruby   "" "" "for executing the ruby scripts"
 optional_depends NVIDIA "" "" "for NVIDIA OpenCL support"
 
-optional_depends ocl-icd \
+optional_depends opencl-icd-loader \
                  "" "--disable-opencl" \
                  "for OpenCL support ${PROBLEM_COLOR}Say NO for now ${DEFAULT_COLOR}" n
 

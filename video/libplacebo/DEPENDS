@@ -7,4 +7,4 @@ depends ninja
 depends python-mako
 depends libglvnd
 depends glslang
-depends ocl-icd
+depends opencl-icd-loader

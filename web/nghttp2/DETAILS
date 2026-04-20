@@ -1,11 +1,11 @@
           MODULE=nghttp2
-         VERSION=1.68.1
+         VERSION=1.69.0
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://github.com/nghttp2/nghttp2/releases/download/v$VERSION/
-      SOURCE_VFY=sha256:b761b53cb64916657ea84437973d508fd675e96bb2feb9593a1e43d1959abe95
+      SOURCE_VFY=sha256:3f185f5b1c3e77885eb9cf3f2c4da4b1a9f73a24bf5957b829183ad137f82dc8
         WEB_SITE=https://nghttp2.org/
          ENTERED=20160412
-         UPDATED=20251027
+         UPDATED=20260420
            SHORT="Framing layer of HTTP/2 implemented as a reusable C library"
 
 cat << EOF

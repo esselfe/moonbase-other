@@ -10,6 +10,7 @@ SOURCE_DIRECTORY=$BUILD_DIRECTORY/OpenCL-ICD-Loader-$VERSION
          UPDATED=20260420
         REPLACES=ocl-icd
            SHORT="the Khronos official OpenCL ICD Loader"
+
 cat << EOF
 Source code and tests for the Khronos official OpenCL ICD Loader.
 EOF

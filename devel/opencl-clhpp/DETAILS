@@ -1,0 +1,14 @@
+          MODULE=opencl-clhpp
+         VERSION=2025.07.22
+          SOURCE=$MODULE-$VERSION.tar.gz
+ SOURCE_URL_FULL=https://github.com/KhronosGroup/OpenCL-CLHPP/archive/refs/tags/v2025.07.22.tar.gz
+      SOURCE_VFY=sha256:c1031afde6e9eb042e6fcfbc17078f4b437a7e8d55482a1ca6e0fa762d262a89
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/OpenCL-CLHPP-$VERSION
+        WEB_SITE=https://github.com/KhronosGroup/OpenCL-CLHPP
+            TYPE=cmake
+         ENTERED=20260420
+         UPDATED=20260420
+           SHORT="OpenCL C++ header files"
+cat << EOF
+OpenCL C++ header files.
+EOF

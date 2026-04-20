@@ -9,6 +9,7 @@ SOURCE_DIRECTORY=$BUILD_DIRECTORY/OpenCL-CLHPP-$VERSION
          ENTERED=20260420
          UPDATED=20260420
            SHORT="OpenCL C++ header files"
+
 cat << EOF
 OpenCL C++ header files.
 EOF

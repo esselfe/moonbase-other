@@ -1,4 +1,4 @@
-ulimit -n 16384 &&
+#ulimit -n 16384 &&
 
 export MOZILLA_HOME=/usr/lib/$MODULE-$VERSION
 export MOZILLA_OFFICIAL=1
@@ -8,9 +8,15 @@ export MOZBUILD_STATE_PATH="$SOURCE_DIRECTORY/mozbuild"
 export LANG=C
 export MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE=none 
 
+# malloc_usable_size is used in various parts of the codebase
+CFLAGS="${CFLAGS/_FORTIFY_SOURCE=3/_FORTIFY_SOURCE=2}"
+CFLAGS="${CFLAGS/-fexceptions/}"
+CXXFLAGS="${CXXFLAGS/_FORTIFY_SOURCE=3/_FORTIFY_SOURCE=2}"
+CXXFLAGS="${CXXFLAGS/-fexceptions/}"
+
 #For the STL portion of the build
-export CFLAGS="-fno-exceptions"
-export CXXFLAGS="-fno-exceptions"
+#export CFLAGS="-fno-exceptions"
+#export CXXFLAGS="-fno-exceptions"
 
 ./mach configure &&
 ./mach build --verbose &&

@@ -4,7 +4,6 @@ autoreconf -fi &&
 
 OPTS+=" --enable-fts \
         --disable-docs \
-        --disable-datahub \
         --sysconfdir=/etc \
         --localstatedir=/var \
         --libexecdir=/usr/lib \

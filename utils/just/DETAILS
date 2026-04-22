@@ -1,11 +1,11 @@
           MODULE=just
-         VERSION=1.49.0
+         VERSION=1.50.0
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/casey/${MODULE}/archive/${VERSION}.tar.gz
-      SOURCE_VFY=sha256:442406ee14eb9a59414525cf262354fe2e752b22c224ce2a5e42b2c493226e09
+      SOURCE_VFY=sha256:cca015e07739a1c26c6fc459f7d46e1e36ce0f7613114eddedd8cd3af55a10b7
         WEB_SITE=https://github.com/casey/just
          ENTERED=20251218
-         UPDATED=20260405
+         UPDATED=20260422
            SHORT="A handy way to save and run recipes of commands"
 
 cat << EOF

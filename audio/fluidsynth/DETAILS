@@ -1,12 +1,12 @@
-          MODULE=fluidsynth
-         VERSION=2.5.3
-          SOURCE=$MODULE-$VERSION.tar.gz
- SOURCE_URL_FULL=https://github.com/FluidSynth/${MODULE}/archive/v$VERSION.tar.gz
-      SOURCE_VFY=sha256:6f247edfb4b91b927efc68c8884cec2ec345c8007afe6b59558cc52a67ef2517
-        WEB_SITE=https://www.fluidsynth.org/
-         ENTERED=20060317
-         UPDATED=20260222
-           SHORT="A real-time software synthesizer"
+         MODULE=fluidsynth
+        VERSION=2.5.4
+         SOURCE=$MODULE-$VERSION.tar.gz
+SOURCE_URL_FULL=https://github.com/FluidSynth/${MODULE}/archive/v$VERSION.tar.gz
+     SOURCE_VFY=sha256:72f5720328fe44e2e5c67813885f0a6b4b004d048bd2eeeb0c0064074ebff530
+       WEB_SITE=https://www.fluidsynth.org/
+        ENTERED=20060317
+        UPDATED=20260423
+          SHORT="A real-time software synthesizer"
 
 cat << EOF
 FluidSynth is a real-time software synthesizer based on the SoundFont 2

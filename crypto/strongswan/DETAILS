@@ -1,12 +1,12 @@
-          MODULE=strongswan
-         VERSION=6.0.3
-          SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=https://download.strongswan.org/
-      SOURCE_VFY=sha256:288f2111f5c9f6ec85fc08fa835bf39232f5c4044969bb4de7b4335163b1efa9
-        WEB_SITE=https://www.strongswan.org
-         ENTERED=20110619
-         UPDATED=20251208
-           SHORT="OpenSource IPsec implementation for Linux"
+    MODULE=strongswan
+   VERSION=6.0.6
+    SOURCE=$MODULE-$VERSION.tar.bz2
+SOURCE_URL=https://download.strongswan.org/
+SOURCE_VFY=sha256:07df7cedae56a7f3bb07e66d21a1f9f87e961db70e99184e11d3819413e4f87c
+  WEB_SITE=https://www.strongswan.org
+   ENTERED=20110619
+   UPDATED=20260422
+     SHORT="OpenSource IPsec implementation for Linux"
 
 cat << EOF
 strongSwan is an OpenSource IPsec implementation for the Linux operating

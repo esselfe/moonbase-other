@@ -1,11 +1,11 @@
     MODULE=ansible
-   VERSION=13.5.0
+   VERSION=13.6.0
     SOURCE=$MODULE-$VERSION.tar.gz
 SOURCE_URL=https://pypi.python.org/packages/source/a/ansible/
-SOURCE_VFY=sha256:69b175e694d9511fec838b0a82f150bab366dd9cb7a829096c3d3a72f6046719
+SOURCE_VFY=sha256:5141552c1bd37f56839eb5b11ef0d93e92391295c97947d507b8daf7265b12b8
   WEB_SITE=https://pypi.org/project/ansible/
    ENTERED=20191213
-   UPDATED=20260326
+   UPDATED=20260422
      SHORT="Deploy and configure remote systems en masse"
 
 cat << EOF

@@ -1,12 +1,12 @@
-           MODULE=firefox
-          VERSION=149.0.2
-           SOURCE=$MODULE-$VERSION.source.tar.xz
-       SOURCE_URL=https://archive.mozilla.org/pub/firefox/releases/$VERSION/source
-       SOURCE_VFY=sha256:6a931a2cf087164c689099c3856b3091a7e156a7b94fab8ab5712affe87870ce
-         WEB_SITE=https://www.mozilla.org/en-US/firefox
-          ENTERED=20110814
-          UPDATED=20260408
-            SHORT="A web browser from mozilla.org"
+    MODULE=firefox
+   VERSION=150.0
+    SOURCE=$MODULE-$VERSION.source.tar.xz
+SOURCE_URL=https://archive.mozilla.org/pub/firefox/releases/$VERSION/source
+SOURCE_VFY=sha256:fbe43df4c8a135cee4b29c375574bd9f609ee37a9f3b43bb96a83680e8ef3994
+  WEB_SITE=https://www.mozilla.org/en-US/firefox
+   ENTERED=20110814
+   UPDATED=20260422
+     SHORT="A web browser from mozilla.org"
 
 cat << EOF
 A web browser from mozilla.org.

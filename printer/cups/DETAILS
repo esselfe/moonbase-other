@@ -1,11 +1,11 @@
     MODULE=cups
-   VERSION=2.4.17
+   VERSION=2.4.18
     SOURCE=$MODULE-$VERSION-source.tar.gz
 SOURCE_URL=https://github.com/OpenPrinting/cups/releases/download/v${VERSION}/
-SOURCE_VFY=sha256:89c703238de210d4f4f4e5d4269e3d60c4b2f487aad75a8a1eaecd659e4d0b77
+SOURCE_VFY=sha256:8fe23bf4905f8889f4bd5ebf375e81916e84754bfc59eccc88cfd7b1e97a741b
   WEB_SITE=https://www.cups.org/
    ENTERED=20020218
-   UPDATED=20260418
+   UPDATED=20260422
      SHORT="A portable printing layer"
 
 cat << EOF

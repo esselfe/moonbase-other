@@ -5,7 +5,7 @@
       SOURCE_VFY=sha256:e158f19de4560c935ebe0507c21b79bff17618b9230d8076fe8c5fff9fdbd5b1
         WEB_SITE=http://home.san.rr.com/johninsd/pub/linux/lilo
          ENTERED=20010922
-         UPDATED=20151123
+         UPDATED=20260422
            SHORT="Boot loader for Linux/x86 and other PC operating systems"
          GARBAGE=off
 

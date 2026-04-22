@@ -1,2 +1,2 @@
-depends bin86
+depends dev86
 depends coreutils

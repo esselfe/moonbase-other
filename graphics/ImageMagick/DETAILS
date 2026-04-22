@@ -1,14 +1,14 @@
           MODULE=ImageMagick
-         VERSION=7.1.2-19
+         VERSION=7.1.2-21
           SOURCE=$MODULE-$VERSION.tar.xz
    SOURCE_URL[1]=https://www.imagemagick.org/archive/releases/
    SOURCE_URL[2]=https://mirror.checkdomain.de/imagemagick/releases/
    SOURCE_URL[3]=ftp://ftp.nluug.nl/pub/ImageMagick
    SOURCE_URL[4]=ftp://gd.tuwien.ac.at/pub/graphics/ImageMagick
-      SOURCE_VFY=sha256:4ffd17387d0b55c1f7465ea2baf39e1404afcfe7321ee66430741045d282fc6a
+      SOURCE_VFY=sha256:56450bf5d65b63abb09568abb2c40b493ab913418f92df135ed661471da0eb0d
         WEB_SITE=http://www.imagemagick.org
          ENTERED=20010922
-         UPDATED=20260413
+         UPDATED=20260422
            SHORT="Automated and interactive manipulation of images"
 
 cat << EOF

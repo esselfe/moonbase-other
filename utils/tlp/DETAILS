@@ -1,12 +1,12 @@
           MODULE=tlp
-         VERSION=1.9.1
+         VERSION=1.10.0
           SOURCE=$MODULE-$VERSION.tar.gz
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/TLP-$VERSION
  SOURCE_URL_FULL=https://github.com/linrunner/TLP/archive/$VERSION.tar.gz
-      SOURCE_VFY=sha256:6f7c69a8c56706f83bc3566377caf846c2ccbd8f2621fe8e56c6d1e684d15156
+      SOURCE_VFY=sha256:902d9be64746e0d9b9c879b963b2b90a2d3edd265ee192db76d692c5a962a3ff
         WEB_SITE=http://linrunner.de/en/tlp/tlp.html
          ENTERED=20180227
-         UPDATED=20260108
+         UPDATED=20260422
            SHORT="Linux Advanced Power Management"
 
 cat << EOF

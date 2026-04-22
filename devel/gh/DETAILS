@@ -1,12 +1,12 @@
           MODULE=gh
-         VERSION=2.90.0
+         VERSION=2.91.0
           SOURCE=gh-cli-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/cli/cli/archive/refs/tags/v$VERSION.tar.gz
-      SOURCE_VFY=sha256:87a6a3b3df1155e9d253ec6ae273d9e018773498b7ce7570f896a7cb75b64e39
+      SOURCE_VFY=sha256:6409f89e1b8a69347fbdfea4b60cb78d4c58217c3d96c858ce0eb8b0ae853b59
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/cli-$VERSION
         WEB_SITE=https://cli.github.com/
          ENTERED=20210423
-         UPDATED=20260417
+         UPDATED=20260422
            SHORT="Official command-line wrapper for GitHub"
 
 cat << EOF

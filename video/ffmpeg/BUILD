@@ -15,7 +15,6 @@ OPTS+=" --disable-static  \
         --enable-swscale  \
         --enable-nonfree  \
         --enable-pthreads \
-        --enable-postproc \
         --enable-avfilter \
         --disable-libopencv"
 

@@ -1,11 +1,11 @@
           MODULE=lilypond
-         VERSION=2.25.24
+         VERSION=2.26.0
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=https://lilypond.org/download/sources/v${VERSION%.*}/
-      SOURCE_VFY=sha256:d67ea62416d971f418b26ae35b1706fc4b48c85f6e1cd4554fb7d7dfece85dce
+      SOURCE_VFY=sha256:bbe82dbeba7f7f99ddcd8d1fa134a0d89cafa6e8f815fde5bb01f4208b06fe05
         WEB_SITE=https://lilypond.org/
          ENTERED=20070920
-         UPDATED=20250322
+         UPDATED=20260423
            SHORT="Music notation for everyone"
 
 cat << EOF

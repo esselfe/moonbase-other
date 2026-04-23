@@ -1,12 +1,12 @@
-            MODULE=python-ly
-           VERSION=0.9.9
-            SOURCE=$MODULE-$VERSION.tar.gz
-   SOURCE_URL_FULL=https://github.com/wbsoft/python-ly/archive/v$VERSION.tar.gz
-        SOURCE_VFY=sha256:b64983ab44ec7e580451b8fb929da5d981c3d4a633612239e86ce515c1dd7899
-          WEB_SITE=https://github.com/wbsoft/python-ly
-           ENTERED=20180331
-           UPDATED=20250322
-             SHORT="manipulate lilypond documents"
+         MODULE=python-ly
+        VERSION=0.9.10
+         SOURCE=$MODULE-$VERSION.tar.gz
+SOURCE_URL_FULL=https://github.com/wbsoft/python-ly/archive/v$VERSION.tar.gz
+     SOURCE_VFY=sha256:250eae7e1cdfc03f61e135677318130175f15ff76eaa0cd8ed7de3c888ce575e
+       WEB_SITE=https://github.com/wbsoft/python-ly
+        ENTERED=20180331
+        UPDATED=20260423
+          SHORT="manipulate lilypond documents"
 
 cat << EOF
 nose provides an alternate test discovery and running process for unittest,

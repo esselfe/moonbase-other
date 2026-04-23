@@ -1,12 +1,12 @@
           MODULE=libindi
-         VERSION=2.2.0
+         VERSION=2.2.1
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/indilib/indi/archive/refs/tags/v$VERSION.tar.gz
-      SOURCE_VFY=sha256:6b5a59496457986c37868ffa1ad06f41079707566a8929015e15494b218ecc7f
+      SOURCE_VFY=sha256:3bd2b8460a592f168af983700f1bedaaf454aca693109b3ac6c5bb3195370b22
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/indi-$VERSION
         WEB_SITE=http://www.indilib.org/index.php?title=Main_Page
          ENTERED=20071027
-         UPDATED=20260401
+         UPDATED=20260423
            SHORT="instrument neutral distributed interface control protocol"
 
 cat << EOF

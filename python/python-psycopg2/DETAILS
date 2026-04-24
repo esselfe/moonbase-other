@@ -1,18 +1,18 @@
           MODULE=python-psycopg2
-         VERSION=2.9.11
+         VERSION=2.9.12
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://pypi.python.org/packages/source/p/psycopg2/psycopg2-$VERSION.tar.gz
-      SOURCE_VFY=sha256:964d31caf728e217c697ff77ea69c2ba0865fa41ec20bb00f0977e62fdcc52e3
+      SOURCE_VFY=sha256:1dedb1c7a1d8552c4a6044c6b1c41a52e6a8e2d144af83eccac758076b1b7c15
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/psycopg2-$VERSION
         WEB_SITE=https://www.psycopg.org/
             TYPE=python3
         REPLACES=psycopg2
          ENTERED=20140802
-         UPDATED=20251203
+         UPDATED=20260424
            SHORT="PostgreSQL adapter for the Python"
 
 cat << EOF
-Psycopg is the most popular PostgreSQL adapter for the Python programming language.
-At its core it fully implements the Python DB API 2.0 specifications. Several
-extensions allow access to many of the features offered by PostgreSQL.
+Psycopg is the most popular PostgreSQL adapter for the Python programming
+language. At its core it fully implements the Python DB API 2.0 specifications.
+Several extensions allow access to many of the features offered by PostgreSQL.
 EOF

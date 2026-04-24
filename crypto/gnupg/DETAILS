@@ -1,12 +1,12 @@
-          MODULE=gnupg
-         VERSION=2.5.17
-          SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=https://www.gnupg.org/ftp/gcrypt/gnupg/
-      SOURCE_VFY=sha256:2c1fbe20e2958fd8fb53cf37d7c38e84a900edc0d561a1c4af4bc3a10888685d
-        WEB_SITE=http://www.gnupg.org/
-         ENTERED=20050516
-         UPDATED=20260203
-           SHORT="GnuPG 2.0 provides additional features not present in former gnupg"
+    MODULE=gnupg
+   VERSION=2.5.19
+    SOURCE=$MODULE-$VERSION.tar.bz2
+SOURCE_URL=https://www.gnupg.org/ftp/gcrypt/gnupg/
+SOURCE_VFY=sha256:722aa8a426dd9b44e0d194b73bfee3a3e617d65674cd4d1d062e6df29f1788c6
+  WEB_SITE=http://www.gnupg.org/
+   ENTERED=20050516
+   UPDATED=20260424
+     SHORT="GnuPG 2.0 provides additional features not present in former gnupg"
 
 cat << EOF
 GnuPG is GNU's tool for secure communication and data storage. It can be used

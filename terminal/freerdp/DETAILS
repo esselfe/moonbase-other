@@ -1,11 +1,11 @@
     MODULE=freerdp
-   VERSION=3.24.1
+   VERSION=3.25.0
     SOURCE=$MODULE-$VERSION.tar.gz
 SOURCE_URL=https://github.com/FreeRDP/FreeRDP/releases/download/$VERSION/
-SOURCE_VFY=sha256:3217e429735ff65377db664cc668746099bae5197299dbfab8d02222454ebb8c
+SOURCE_VFY=sha256:2d8f8ef34f607f4c5b978e3d0d96d936d88099f4918d21ba84ac334a89219f7f
   WEB_SITE=http://www.freerdp.com/
    ENTERED=20101118
-   UPDATED=20260318
+   UPDATED=20260425
      SHORT="fork of the rdesktop project"
 
 cat << EOF

@@ -1,16 +1,16 @@
-          MODULE=libdecor
-         VERSION=0.2.4
-          SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=https://gitlab.freedesktop.org/libdecor/libdecor/-/archive/$VERSION/
-      SOURCE_VFY=sha256:c3510083742e940a169bb3787ff96241167b01a7205c1ed9a9061536770dac8c
-        WEB_SITE=https://gitlab.freedesktop.org/libdecor/libdecor
-            TYPE=meson
-         ENTERED=20230702
-         UPDATED=20251118
-           SHORT="client-side decorations library for Wayland client"
+    MODULE=libdecor
+   VERSION=0.2.5
+    SOURCE=$MODULE-$VERSION.tar.bz2
+SOURCE_URL=https://gitlab.freedesktop.org/libdecor/libdecor/-/archive/$VERSION/
+SOURCE_VFY=sha256:1d0e9b3d2711dfc4edc21db3c87752a76cd62079cfad447699acda5d49b23536
+  WEB_SITE=https://gitlab.freedesktop.org/libdecor/libdecor
+      TYPE=meson
+   ENTERED=20230702
+   UPDATED=20260425
+     SHORT="client-side decorations library for Wayland client"
 
 cat << EOF
-A client-side decorations library for Wayland client. Can help Wayland clients draw window
-decorations for them. It aims to provide multiple backends that implements the
-decoration drawing.
+A client-side decorations library for Wayland client. Can help Wayland clients
+draw window decorations for them. It aims to provide multiple backends that
+implements the decoration drawing.
 EOF

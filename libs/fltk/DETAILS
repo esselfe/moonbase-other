@@ -1,14 +1,14 @@
-          MODULE=fltk
-         VERSION=1.4.4
-          SOURCE=$MODULE-$VERSION-source.tar.bz2
-      SOURCE_URL=https://github.com/fltk/fltk/releases/download/release-$VERSION/
-      SOURCE_VFY=sha256:2b302c80b7ea937a8bdc01ed6718fd995035bf63e9a2895491c1001821725f1f
-        WEB_SITE=http://www.fltk.org
-         ENTERED=20011129
-         UPDATED=20250729
-      MAINTAINER=tchan@lunar-linux.org
-         GARBAGE=off
-           SHORT="fast light graphical toolkit for X11"
+    MODULE=fltk
+   VERSION=1.4.5
+    SOURCE=$MODULE-$VERSION-source.tar.bz2
+SOURCE_URL=https://github.com/fltk/fltk/releases/download/release-$VERSION/
+SOURCE_VFY=sha256:b5a52489b7ffae196db2076adb4c1b18170db0d047f5e93539a382603461564b
+  WEB_SITE=http://www.fltk.org
+   ENTERED=20011129
+   UPDATED=20260426
+MAINTAINER=tchan@lunar-linux.org
+     SHORT="fast light graphical toolkit for X11"
+GARBAGE=off
 
 cat << EOF
 FLTK (pronounced "fulltick") is a LGPL'd C++ graphical user interface

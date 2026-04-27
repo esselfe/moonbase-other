@@ -1,0 +1,8 @@
+depends readline
+depends ncurses
+depends zlib
+depends bzip2
+depends xz
+depends pcre2
+depends curl
+

@@ -1,12 +1,12 @@
-           MODULE=uriparser
-          VERSION=0.9.9
-           SOURCE=$MODULE-$VERSION.tar.bz2
-       SOURCE_URL=https://github.com/uriparser/uriparser/releases/download/$MODULE-$VERSION/
-       SOURCE_VFY=sha256:027b923c0ce89786d8cf7a842ef77dcfff3a6a097c0e67d241b447d1eae8db4c
-         WEB_SITE=https://uriparser.github.io/
-          ENTERED=20140802
-          UPDATED=20250904
-            SHORT="URI parsing and handling library"
+    MODULE=uriparser
+   VERSION=1.0.1
+    SOURCE=$MODULE-$VERSION.tar.bz2
+SOURCE_URL=https://github.com/uriparser/uriparser/releases/download/$MODULE-$VERSION/
+SOURCE_VFY=sha256:f6cff90438c6605131f36f703bd4c6bf638b7266a52cf9aaf46cf9e11e5f77f6
+  WEB_SITE=https://uriparser.github.io/
+   ENTERED=20140802
+   UPDATED=20260427
+     SHORT="URI parsing and handling library"
 
 cat << EOF
 uriparser is a strictly RFC 3986 compliant URI parsing and handling library

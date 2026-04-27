@@ -1,13 +1,13 @@
           MODULE=apache-log4cxx
-         VERSION=1.6.1
+         VERSION=1.7.0
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/apache/logging-log4cxx/archive/refs/tags/rel/v$VERSION.tar.gz
-      SOURCE_VFY=sha256:096bac3e5a1c6f8622efdd73fd6e71d32ba264b1367d66bde5cbcdd9e2194d15
+      SOURCE_VFY=sha256:f4457bf3e6070bfa69689d44639f73e98d9bdb2324c7fe3cd5e949ec5902a2ba
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/logging-log4cxx-rel-v$VERSION
         WEB_SITE=http://logging.apache.org/log4cxx/index.html
             TYPE=cmake
          ENTERED=20100321
-         UPDATED=20260317
+         UPDATED=20260427
            SHORT="logging framework for C++"
 
 cat << EOF

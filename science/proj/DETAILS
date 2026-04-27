@@ -1,12 +1,12 @@
     MODULE=proj
-   VERSION=9.8.0
+   VERSION=9.8.1
     SOURCE=$MODULE-$VERSION.tar.gz
 SOURCE_URL=https://download.osgeo.org/proj/
-SOURCE_VFY=sha256:a8b493b00cf4d08b712b9e063ed5e53e2be90fcde46770e9dbd773341f378f43
+SOURCE_VFY=sha256:af5b731c145c1d13c4e3b4eeb7d167e94e845e440f71e3496b4ed8dae0291960
   WEB_SITE=https://trac.osgeo.org/proj/
       TYPE=cmake
    ENTERED=20180515
-   UPDATED=20260321
+   UPDATED=20260428
   REPLACES=proj-4
      SHORT="Cartographic Projections library"
 

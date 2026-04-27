@@ -1,12 +1,12 @@
           MODULE=mpg123
-         VERSION=1.33.4
+         VERSION=1.33.5
           SOURCE=$MODULE-$VERSION.tar.bz2
    SOURCE_URL[0]=$SFORGE_URL/$MODULE
    SOURCE_URL[1]=http://www.mpg123.de/download/
-      SOURCE_VFY=sha256:3ae8c9ff80a97bfc0e22e89fbcd74687eca4fc1db315b12607f27f01cb5a47d9
+      SOURCE_VFY=sha256:0d7ebc8da0aff3ca383c8c6b5a6adbe402ee5bb256685b8c5499f3a739f9d6dd
         WEB_SITE=http://mpg123.de/
          ENTERED=20011104
-         UPDATED=20251222
+         UPDATED=20260427
            SHORT="A console MPEG audio player"
 
 cat << EOF

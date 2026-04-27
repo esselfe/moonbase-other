@@ -5,9 +5,9 @@ export XML_CATALOG_FILES=/etc/xml/catalog
 # system fmt installed
 export FMT_INTERNAL=yes
 
-export MOC=/usr/lib/qt6/moc
-export RCC=/usr/lib/qt6/rcc
-export UIC=/usr/lib/qt6/uic
+export MOC=/usr/lib/qt6/bin/moc
+export RCC=/usr/lib/qt6/bin/rcc
+export UIC=/usr/lib/qt6/bin/uic
 
 ./autogen.sh &&
 

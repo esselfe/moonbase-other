@@ -1,12 +1,12 @@
-          MODULE=ipp-usb
-         VERSION=0.9.30
-          SOURCE=$MODULE-$VERSION.tar.gz
- SOURCE_URL_FULL=https://github.com/OpenPrinting/ipp-usb/archive/${VERSION}.tar.gz
-      SOURCE_VFY=sha256:8c044bb0efb8807a64d406a1208cb82b7801d8349205d0ef8c03f637f0228651
-        WEB_SITE=https://github.com/OpenPrinting/ipp-usb/
-         ENTERED=20201006
-         UPDATED=20250429
-           SHORT="Allows using the IPP protocol by USB printers"
+         MODULE=ipp-usb
+        VERSION=0.9.32
+         SOURCE=$MODULE-$VERSION.tar.gz
+SOURCE_URL_FULL=https://github.com/OpenPrinting/ipp-usb/archive/${VERSION}.tar.gz
+     SOURCE_VFY=sha256:03b8f166b2f092de29f374bd912901be164986acfadd902275f561237e938dea
+       WEB_SITE=https://github.com/OpenPrinting/ipp-usb/
+        ENTERED=20201006
+        UPDATED=20260427
+          SHORT="Allows using the IPP protocol by USB printers"
 
 cat << EOF
 IPP-over-USB allows using the IPP protocol, normally designed for network

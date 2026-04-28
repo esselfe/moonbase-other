@@ -1,12 +1,12 @@
           MODULE=liborcus
-         VERSION=0.20.0
+         VERSION=0.21.0
           SOURCE=orcus-$VERSION.tar.bz2
       SOURCE_URL=https://gitlab.com/orcus/orcus/-/archive/$VERSION/
-      SOURCE_VFY=sha256:767ddd06d72b18c5e6c65af74a78b8c7b9326c7163fde1066b97369769a68f35
+      SOURCE_VFY=sha256:3555660197d6d38d720643f430804bb0f95a484c1fe6c28c00808ae67f978d15
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/orcus-$VERSION
         WEB_SITE=https://gitlab.com/orcus/orcus/
          ENTERED=20180131
-         UPDATED=20250221
+         UPDATED=20260428
            SHORT="File import filter library for spreadsheet documents"
 
 cat << EOF

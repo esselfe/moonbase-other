@@ -1,12 +1,12 @@
           MODULE=pdfjs
-         VERSION=5.6.205
+         VERSION=5.7.284
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/mozilla/pdf.js/archive/v$VERSION.tar.gz
-      SOURCE_VFY=sha256:38870b7c446975adfb9e1f18d1a92459a100d9fd7de1d63681ddd343e3712833
+      SOURCE_VFY=sha256:3cd36e9c7878dc6ab23d1f64879b03d696f2ffe364d071c8dba396e4d0c1e0ee
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/pdf.js-$VERSION
         WEB_SITE=https://github.com/mozilla/pdf.js/
          ENTERED=20181003
-         UPDATED=20260330
+         UPDATED=20260428
            SHORT="PDF reader in JavaScript"
 
 cat << EOF

@@ -1,12 +1,12 @@
-          MODULE=fonttools
-         VERSION=4.60.1
-          SOURCE=$MODULE-$VERSION.tar.gz
- SOURCE_URL_FULL=https://github.com/fonttools/fonttools/archive/$VERSION.tar.gz
-      SOURCE_VFY=sha256:520d2c993ffd386716441d19a1ca65020c54741ceb771c2d2a2557156c12010d
-        WEB_SITE=https://pypi.org/project/fonttools/#description
-         ENTERED=20121205
-         UPDATED=20251021
-           SHORT="convert OpenType and TrueType fonts to and from XML"
+         MODULE=fonttools
+        VERSION=4.62.1
+         SOURCE=$MODULE-$VERSION.tar.gz
+SOURCE_URL_FULL=https://github.com/fonttools/fonttools/archive/$VERSION.tar.gz
+     SOURCE_VFY=sha256:9207dc3e2a8e3212986b1cdbe0696f6cebcf1a1d6de93cce11c2d85afb2a35dc
+       WEB_SITE=https://pypi.org/project/fonttools/#description
+        ENTERED=20121205
+        UPDATED=20260428
+          SHORT="convert OpenType and TrueType fonts to and from XML"
 
 cat << EOF
 Convert OpenType and TrueType fonts to and from XML.

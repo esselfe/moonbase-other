@@ -1,11 +1,11 @@
          MODULE=wakatime-cli
-        VERSION=2.7.5
+        VERSION=2.9.0
          SOURCE=$MODULE-$VERSION.tar.gz
 SOURCE_URL_FULL=https://github.com/wakatime/wakatime-cli/archive/refs/tags/v$VERSION.tar.gz
-     SOURCE_VFY=sha256:bc15216013abfcb81a992c6092c390a6a9ce89b1dae62376129a9f4a5c4adf30
+     SOURCE_VFY=sha256:1d4e2a4fccad84f485559253703db741a3215ac4e3fb4f94e0743dd8374e1428
        WEB_SITE=https://github.com/wakatime/wakatime-cli
         ENTERED=20220710
-        UPDATED=20260426
+        UPDATED=20260429
           SHORT="Command line interface used by all WakaTime text editor plugins"
 
 cat <<EOF

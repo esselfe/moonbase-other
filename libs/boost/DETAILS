@@ -1,8 +1,8 @@
           MODULE=boost
          VERSION=1.91.0
           SOURCE=${MODULE}_${VERSION//./_}.tar.bz2
-     SOURCE_URL=https://archives.boost.io/release/$VERSION/source/
-     SOURCE_VFY=sha256:de5e6b0e4913395c6bdfa90537febd9028ea4c0735d2cdb0cd9b45d5f51264f5
+      SOURCE_URL=https://archives.boost.io/release/$VERSION/source/
+      SOURCE_VFY=sha256:de5e6b0e4913395c6bdfa90537febd9028ea4c0735d2cdb0cd9b45d5f51264f5
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/${MODULE}_${VERSION//./_}
         WEB_SITE=https://www.boost.org
          ENTERED=20041115

@@ -1,11 +1,11 @@
           MODULE=firefox-bin
-         VERSION=150.0
+         VERSION=150.0.1
           SOURCE=firefox-$VERSION.tar.xz
       SOURCE_URL=https://archive.mozilla.org/pub/firefox/releases/$VERSION/linux-x86_64/en-US/
-      SOURCE_VFY=sha256:2ff987e94bfa6ed51f53d6b4baa7f0f8ec3fc26c4c47bd9f86c70d11aa0fbd60
+      SOURCE_VFY=sha256:83871560c3d3514d3b5bdd196cd258dde23d53f5d3d89d266765bd7e8306b895
         WEB_SITE=https://www.mozilla.org/en-US/firefox/
          ENTERED=20091207
-         UPDATED=20260422
+         UPDATED=20260429
            SHORT="A speedy, full-featured web browser"
 ARCHIVE=off
 

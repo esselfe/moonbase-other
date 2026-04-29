@@ -1,4 +1,3 @@
-depends boost
 depends abseil-cpp
 depends icu4c
 depends protobuf

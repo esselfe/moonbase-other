@@ -3,7 +3,7 @@ OPTS+=" -DCMAKE_INSTALL_PREFIX=/usr \
         -DCMAKE_BUILD_TYPE=Release  \
         -DBUILD_STATIC_LIB=OFF      \
         -DBUILD_TESTING=OFF         \
-        -DUSE_BOOST=ON              \
+        -DUSE_BOOST=OFF             \
         -DUSE_RE2=OFF               \
         -DUSE_POSIX_THREAD=ON       \
         -Wno-dev" 

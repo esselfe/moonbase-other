@@ -1,12 +1,11 @@
           MODULE=tcllib
-         VERSION=1.21
-          SOURCE=$MODULE-$VERSION.tar.gz
-SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$MODULE-1-21
- SOURCE_URL_FULL=https://github.com/tcltk/tcllib/archive/refs/tags/tcllib-1-21.tar.gz
-      SOURCE_VFY=sha256:c939b06b3383480a293d6d3cec9af91491e8a38aa3571dfb5024fbf0db260bbd
-        WEB_SITE=https://tcllib.sourceforge.net/
+         VERSION=2.0
+          SOURCE=$MODULE-$VERSION.tar.xz
+      SOURCE_URL=https://core.tcl-lang.org/tcllib/uv/
+      SOURCE_VFY=sha256:642c2c679c9017ab6fded03324e4ce9b5f4292473b62520e82aacebb63c0ce20
+        WEB_SITE=https://core.tcl-lang.org/tcllib/doc/trunk/embedded/index.md
          ENTERED=20051207
-         UPDATED=20230808
+         UPDATED=20260430
            SHORT="Tcl-only library of standard routines for Tcl"
 
 cat << EOF

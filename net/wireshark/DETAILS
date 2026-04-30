@@ -1,11 +1,11 @@
           MODULE=wireshark
-         VERSION=4.6.4
+         VERSION=4.6.5
           SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=https://www.wireshark.org/download/src/all-versions/
-      SOURCE_VFY=sha256:fbeab3d85c6c8a5763c8d9b7fe20b5c69ca9f9e7f2b824bedc73135bdca332e2
+      SOURCE_VFY=sha256:b5322538b20fa3e0bf004be83c534a42937d442be3f960d01b4e1f0db6c50386
         WEB_SITE=https://www.wireshark.org
          ENTERED=20061104
-         UPDATED=20260226
+         UPDATED=20260430
            SHORT="A network protocol analyzer"
 
 cat << EOF

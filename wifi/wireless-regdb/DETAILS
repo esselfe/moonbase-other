@@ -1,11 +1,11 @@
     MODULE=wireless-regdb
-   VERSION=2026.02.04
+   VERSION=2026.03.18
     SOURCE=$MODULE-$VERSION.tar.xz
 SOURCE_URL=https://mirrors.edge.kernel.org/pub/software/network/${MODULE}
-SOURCE_VFY=sha256:0ff48a5cd9e9cfe8e815a24e023734919e9a3b7ad2f039243ad121cf5aabf6c6
+SOURCE_VFY=sha256:5fc0000475d8c5368ccc5222827c16aef98b1eb6a69c9b5a3e7b7e98528945ac
   WEB_SITE=https://wireless.wiki.kernel.org/en/developers/regulatory/wireless-regdb/
    ENTERED=20181004
-   UPDATED=20260417
+   UPDATED=20260430
      SHORT="Central Regulatory Domain Database"
 
 cat << EOF

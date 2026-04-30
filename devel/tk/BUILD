@@ -8,7 +8,12 @@
 
   ./configure ZIP_PROG=zip \
               --prefix=/usr \
-              --mandir=/usr/share/man
+              --mandir=/usr/share/man \
+              --enable-threads \
+              --disable-rpath \
+              --enable-64bit $OPTS
+
+
 ) &&
 
 cd unix &&
@@ -23,7 +28,10 @@ sedit "s:system=MP-RAS-\`awk '{print }' /etc/.relid'\`:system=MP-RAS-\`awk '{pri
 ./configure ZIP_PROG=zip \
             --prefix=/usr \
             --mandir=/usr/share/man \
-            --with-tcl=../tcl$VERSION/unix &&
+            --with-tcl=../tcl$VERSION/unix \
+            --enable-threads \
+            --disable-rpath \
+            --enable-64bit $OPTS&&
 
 default_make &&
 

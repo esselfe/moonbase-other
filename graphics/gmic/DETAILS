@@ -1,12 +1,12 @@
           MODULE=gmic
-         VERSION=3.7.4
+         VERSION=3.7.5
           SOURCE=${MODULE}\_${VERSION}.tar.gz
       SOURCE_URL=https://gmic.eu/files/source/
-      SOURCE_VFY=sha256:f9f0e5267b26b3c8e683092df87159173b649e69bccfd1481cacd4d294398adf
+      SOURCE_VFY=sha256:159d15a5b6fcd6cf1da676ef971a3fd4ebeadc8d1c009c0f9275c2af4034e5e4
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
         WEB_SITE=https://gmic.eu
          ENTERED=20201208
-         UPDATED=20260319
+         UPDATED=20260430
            SHORT="A Full-Featured Open-Source Framework for Image Processing"
 
 cat << EOF

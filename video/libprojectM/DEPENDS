@@ -1,5 +1,5 @@
 depends cmake
-depends ftgl
-depends libvisual
+depends glm
+depends libglvnd
 
 optional_depends SDL2 "-DENABLE_SDL_UI=ON" "-DENABLE_SDL_UI=OFF" "build developer test UI"

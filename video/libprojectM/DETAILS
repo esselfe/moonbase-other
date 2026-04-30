@@ -1,13 +1,12 @@
           MODULE=libprojectM
-         VERSION=4.0.0
-          SOURCE=projectm-$VERSION.tar.gz
- SOURCE_URL_FULL=https://github.com/projectM-visualizer/projectm/archive/v$VERSION.tar.gz
-      SOURCE_VFY=sha256:4f4147f72b8e7578847d96f0f4b8bd3c8900ce6181a7a167912ce7a2626030d8
-SOURCE_DIRECTORY=$BUILD_DIRECTORY/projectm-$VERSION
-        WEB_SITE=http://xmms-projectm.sourceforge.net/
+         VERSION=4.1.6
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=https://github.com/projectM-visualizer/projectm/releases/download/v$VERSION/
+      SOURCE_VFY=sha256:1b9e6d56c59fe24e5416da4d42e941a34c982811003e43ac88b5aca8afa52c87
+        WEB_SITE=https://github.com/projectM-visualizer/projectm
             TYPE=cmake
          ENTERED=20060712
-         UPDATED=20231016
+         UPDATED=20260430
            SHORT="music visualizer"
 
 cat << EOF

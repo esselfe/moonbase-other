@@ -1,11 +1,11 @@
           MODULE=lxc
-         VERSION=6.0.6
+         VERSION=7.0.0
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=https://linuxcontainers.org/downloads/lxc/
-      SOURCE_VFY=sha256:b0ba4537258d2b848fd07dedb1044dab132de3fb3f1976d240da40a7dee1b8cf
+      SOURCE_VFY=sha256:ba0c860626efbac6683f351dd718edb062065e919716d787b89e3d547c5d9493
         WEB_SITE=http://lxc.sourceforge.net/
          ENTERED=20120901
-         UPDATED=20260228
+         UPDATED=20260502
            SHORT="container namespace cgroup virtualisation"
 
 cat << EOF

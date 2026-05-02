@@ -1,12 +1,12 @@
-          MODULE=podofo
-         VERSION=1.0.3
-          SOURCE=$MODULE-$VERSION.tar.gz
- SOURCE_URL_FULL=https://github.com/podofo/podofo/archive/refs/tags/$VERSION.tar.gz
-      SOURCE_VFY=sha256:02815b21a51632c2849d41b067597e9356bbc54bad0efcd84c902b555c203ce7
-        WEB_SITE=https://github.com/podofo/podofo/
-         ENTERED=20090628
-         UPDATED=20260319
-           SHORT="POrtable DOcument FOrmat"
+         MODULE=podofo
+        VERSION=1.1.0
+         SOURCE=$MODULE-$VERSION.tar.gz
+SOURCE_URL_FULL=https://github.com/podofo/podofo/archive/refs/tags/$VERSION.tar.gz
+     SOURCE_VFY=sha256:f34b4413b613e33ab9fe83ff5aa7e2827a6425fcbcd343339458d614b7d6a951
+       WEB_SITE=https://github.com/podofo/podofo/
+        ENTERED=20090628
+        UPDATED=20260502
+          SHORT="POrtable DOcument FOrmat"
 
 cat << EOF
 PoDoFo is a library to work with the PDF file format. The name comes from the

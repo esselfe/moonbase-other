@@ -1,12 +1,12 @@
           MODULE=wf-recorder
-         VERSION=0.4.1
+         VERSION=0.6.0
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/ammen99/wf-recorder/archive/refs/tags/v$VERSION.tar.gz
-      SOURCE_VFY=sha256:486e9c03693026e7e287e9cddda5b78488b22706aed1ab789e19ffd09e4adfda
+      SOURCE_VFY=sha256:52d2c952506d63708f9a8f1aacd4d6ca176287caf3507c8ff2882fa0390cb391
         WEB_SITE=https://github.com/ammen99/wf-recorder/
             TYPE=meson
          ENTERED=20190330
-         UPDATED=20240728
+         UPDATED=20260501
            SHORT="A video recorder for Wayland compositors like sway"
 
 cat << EOF

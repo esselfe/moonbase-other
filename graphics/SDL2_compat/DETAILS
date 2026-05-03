@@ -1,0 +1,19 @@
+          MODULE=SDL2_compat
+         VERSION=2.32.68
+          SOURCE=$MODULE-$VERSION.tar.gz
+ SOURCE_URL_FULL=https://github.com/libsdl-org/sdl2-compat/archive/refs/tags/release-$VERSION.tar.gz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/sdl2-compat-release-$VERSION
+      SOURCE_VFY=sha256:72f846becfd2d321da3d2e7a15410f5f156d904257f4c4c608b546614113936b
+        WEB_SITE=https://github.com/libsdl-org/sdl2-compat
+         ENTERED=20260503
+         UPDATED=20260503
+           SHORT="A SDL2 compatibility layer that uses SDL3 behind the scenes"
+
+cat << EOF
+This is the Simple DirectMedia Layer, a general API that provides low level
+access to audio, keyboard, mouse, joystick, 3D hardware via OpenGL, and 2D
+framebuffer across multiple platforms.
+This code is a compatibility layer; it provides a binary and source compatible
+API for programs written against SDL2, but it uses SDL3 behind the scenes. If
+you are writing new code, please target SDL3 directly and do not use this layer.
+EOF

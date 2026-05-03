@@ -1,1 +1,3 @@
 depends SDL3
+
+conflicts SDL2

@@ -2,6 +2,8 @@ depends cmake
 depends pkgconf
 depends dbus
 
+conflicts SDL2_compat
+
 optional_depends systemd \
                  "-DSDL_LIBUDEV=ON" \
                  "-DSDL_LIBUDEV=OFF" \

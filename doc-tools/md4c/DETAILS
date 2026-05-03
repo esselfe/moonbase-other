@@ -1,13 +1,13 @@
           MODULE=md4c
-         VERSION=0.5.2
+         VERSION=0.5.3
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/mity/md4c/archive/refs/tags/release-$VERSION.tar.gz
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-release-$VERSION
-      SOURCE_VFY=sha256:55d0111d48fb11883aaee91465e642b8b640775a4d6993c2d0e7a8092758ef21
+      SOURCE_VFY=sha256:353c346f376b87c954a13f3415ede2d51264cc61dc5abcd38ff1d2aa0d059b9e
         WEB_SITE=https://github.com/mity/md4c
             TYPE=cmake
          ENTERED=20220506
-         UPDATED=20240405
+         UPDATED=20260503
            SHORT="Markdown for C"
 
 cat << EOF

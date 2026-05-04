@@ -2,6 +2,8 @@ export KVER=$(installed_version linux)
 export KERNEL_DIR=/usr/src/linux-$KVER
 export MODULE_DIR=/lib/modules/$KVER/extramodules
 
+mkdir -p /lib/modules/$KVER/extramodules
+
 make KDIR="${KERNEL_DIR}" &&
 make HDAPS=1 KVER="$KERNEL_VERSION" KDIR="${KERNEL_DIR}" EXTRA_CFLAGS=
 

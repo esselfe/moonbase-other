@@ -3,11 +3,11 @@
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/linux-thinkpad/tp_smapi/archive/refs/tags/tp-smapi/$VERSION.tar.gz
       SOURCE_VFY=sha256:86675cdb63a74f75c1b2c4fae3aa5ff8558d00eceee1289c94342bac077f8b11
+ SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-tp-smapi-$VERSION
         WEB_SITE=https://github.com/evgeni/tp_smapi
          ENTERED=20201114
          UPDATED=20260504
            SHORT="Modules for ThinkPad's SMAPI functionality"
-
 cat << EOF
 ThinkPad laptops include a proprietary interface called SMAPI BIOS (System
 Management Application Program Interface) which provides some hardware control

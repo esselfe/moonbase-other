@@ -1,11 +1,11 @@
           MODULE=r8168
-         VERSION=8.054.00
+         VERSION=8.056.02
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/mtorromeo/r8168/archive/refs/tags/$VERSION.tar.gz
-      SOURCE_VFY=sha256:a1327ab43ac9537a030c0c7f60a4d2a3d8d4f7aa932f2fae5271f16fe77a8f2c
+      SOURCE_VFY=sha256:f8354f4018ae11c651d7df737323c317f14ed6af68066372badeba57c99b7a12
         WEB_SITE=https://www.broadcom.com/support/802.11
          ENTERED=20200719
-         UPDATED=20241114
+         UPDATED=20260504
            SHORT="A kernel module for Realtek 8168 network cards"
 
 cat << EOF

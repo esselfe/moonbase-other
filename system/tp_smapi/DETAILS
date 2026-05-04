@@ -1,11 +1,11 @@
           MODULE=tp_smapi
-         VERSION=0.44
+         VERSION=0.45
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/linux-thinkpad/tp_smapi/archive/refs/tags/tp-smapi/$VERSION.tar.gz
-      SOURCE_VFY=sha256:ccc317157c71df621ef92e0213c3a813de4a792fa1dce16a1784944edfcb9ea4
+      SOURCE_VFY=sha256:86675cdb63a74f75c1b2c4fae3aa5ff8558d00eceee1289c94342bac077f8b11
         WEB_SITE=https://github.com/evgeni/tp_smapi
          ENTERED=20201114
-         UPDATED=20231222
+         UPDATED=20260504
            SHORT="Modules for ThinkPad's SMAPI functionality"
 
 cat << EOF
